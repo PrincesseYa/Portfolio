@@ -1,0 +1,69 @@
+       /*h1{
+                color: red;
+                font-size: 15px;
+                font-weight: 800;
+                text-align: center;
+                text-transform: uppercase;
+                text-decoration: underline;
+                background: darkorange;
+                display: inline;
+                margin: 20px 600px;  /* /*l'ordre est: top, right, bottom, left
+                padding: 10px 0;
+            
+            }
+            h2{
+                color: blue;
+            }
+
+            p{
+                line-height: 30px;
+                letter-spacing: 1px;
+                column-count: 2;
+                text-align: left;
+                column-gap: 30px;
+            } 
+
+            li{
+                list-style-type: square;
+            }
+
+            a{
+                text-decoration: none;
+                background-color: slategrey;
+                border: solid 2px red;
+                border-style: solid;
+                border-color: black;
+                border-width: 5px;
+                color: white;
+                border-radius: 15px;
+                border-right-color: blue;
+                border-left-color: blue;
+                display: block;
+                padding: 5px 15px;
+                margin: 20px 50px;
+
+            }*/
+    
+
+
+   /*class, voici ci-dessous comment selectionner un élément par sa class*/
+   .my-paragraph{
+        color: purple;
+        font-size: 20px;
+   }         
+
+   /*id, voici ci-dessous comment selectionner un élément par son id*/
+   #block1{
+        background-color: grey;
+        padding: 15px;
+   }
+
+   #block2{
+    background-color: darkgray
+    ;
+   }
+
+   /*Les types de selecteurs CSS sont, element (p{}), class (.suivi du nom de la class{}), id (#suivi du nom de l'id), 
+   inline (<style> sur la ligne HTML directement)
+   Dans le css: Inline vaux 1000, id vaux 100, class vaux 10 et element(balise) vaux 1
+   !important surpasse tous les selecteurs, le mettre en fin de ligne avant le point virgule en cas de modif urgente*/

@@ -1,0 +1,77 @@
+h1{
+    margin-top: 20rem;
+    margin-left: 41rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(45, 153, 165);
+}
+
+h2{
+    margin-left: 48rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700px;
+    color: rgb(215, 19, 143);
+}
+
+h3{
+    margin-left: 43rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700px;
+    color: rgb(215, 19, 143);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 198, 214);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    display: inline;
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    margin-right: 0;
+}
+
+li a:hover {
+    background-color: white
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(215, 19, 143);
+}
+
+.active {
+    background-color: white;
+}
+
+body{
+    background-image: url("./images/japanese-cherry-trees-3063992_1280-1024x682.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.information {
+    background-color: #e0c6d6;
+    text-decoration-color: rgb(215, 19, 143);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

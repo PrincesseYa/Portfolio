@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+     <head>
+        <title>Cours d'initiation au HTML ET CSS</title> 
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    
+<!--  <body
+        <div id="block1">
+            
+            <h1>Titre le plus important</h1> 
+            <br> <br> <br>
+            <a href="#images">Bas de page</a>
+            <a href="Pages/about.html">A propos</a>
+        </div>
+
+        <div style="background: purple;">element en block 
+            <br>1e
+            <span class="my-paragraph">un autre inline element</span> 
+            <span style="background: red;" >et toujours un autre</span>
+        </div>
+        
+        <div>
+          <ul>
+                <li>Acuueil</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </ul> 
+
+           <ol>
+                <li>Acuueil</li>
+                <li>A propos</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </ol>  
+
+        </div>   
+
+        <div>
+            <a href="https://www.joueclub.fr/" target="_blank"> joueclub </a>
+        </div>
+
+        <div id="block2">
+            <h2 class="my-paragraph">Le sous <small>titre</small> deux</h2>
+            <p><EM>Salut les pros</EM>. Bienvenu dans votre <strong>cours d'initiation au HTML</strong> </p>
+            <p class="my-paragraph">Lorem ipsum dolor sit amet <span>consectetur adipisicing</span> elit. Odio vel sint ad veniam. Aliquam esse eos hic cupiditate fugit ad.<br> Sequi, accusantium voluptates. Ut magni veniam, recusandae magnam asperiores voluptatibus laborum perspiciatis repudiandae amet non minus unde fuga tempore. Ullam, quas iure.</p>
+
+            <hr>
+           
+        </div>
+
+        <div>
+            <img id="images" src="./Image/télécharger.jfif" alt="Le père noel">
+        </div>
+
+        <div>
+            <img src="./télécharger.jfif" alt="Père Noël">
+        </div> /
+    </body> -->
+
+
+        
+    <body>
+        <h1>Les formulaires</h1>
+
+        <form action=""> <!--Pour avoir un formulaire-->
+            <label for="nom">Entrer votre nom</label> <!-- Entrer votre nom apparaitra à côté de la case, si on veut qu'il apparaise
+            dans la case, utiliser "placeholder" exemple juste en dessous-->
+            <input type="text" id="nom" name="nom"> <!--Pour avoir une case de formulaire type text-->
+            
+            <br> <br>
+
+            <label for="email">entrer votre email</label>
+            <input type="email" id="email" placeholder="email" required> <!-- "Required signifie que le champ est obligatoire"-->
+
+            <br><br>
+
+            <label for="password">entrer votre mot de passe</label>
+            <input type="password" name="password" id="password" disabled> <!-- "Disabled" signifie que le input est désactivé-->
+
+            <br><br>
+
+            <label for="message">Message...</label>
+            <textarea name="" id="" cols="20" rows="5"></textarea> <!--cadre pour mettre du texte-->
+
+            <br><br>
+
+            <div>
+                <label> Choisissez votre sexe</label> <br>
+                <input type="radio" name="sexe" id="" value="femme">Femme 
+                <br>
+                <input type="radio" name="sexe" id="" value="homme">Homme
+            </div>
+
+<hr>
+
+<div>
+    <label>Quel langue parlez vous?</label> <br>
+    <input type="checkbox" name="langue" value="Français"> Français<br>
+    <input type="checkbox" name="langue" value="Anglais"> Anglais <br>
+    <input type="checkbox" name="langue" value="Chinois"> Chinois <br>
+    
+</div>
+
+<hr>
+
+<select name="club" id="">
+
+    <option value=""> Votre club prefere</option>
+    <option value="Psg"> Psg</option>
+    <option value="Barça"> Barça</option>
+    <option value="Manchester"> Manchester</option>
+    <option value="Liverpool"> Liverpool</option>
+
+</select>
+
+<br><br>
+
+<input type="submit" value="Valider">
+
+        </form>
+    </body>
+
+
+
+</html>
